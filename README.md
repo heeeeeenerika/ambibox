@@ -47,9 +47,9 @@ This project solves the common issue of messy wiring by completely hiding the co
 ## How a final setup looks like
 The final setup consists of three main components: the power supply, the AmbiBox itself, and the RGB strip(s) mounted on the back of your TV. The power supply connects directly to the AmbiBox. From there, the AmbiBox distributes both power and the data signal to your one or two RGB strip segments.
 
-|             Single Segment Setup             |             Dual Segment Setup             |
-|:--------------------------------------------:|:------------------------------------------:|
-| ![Beschreibung 1](images/single_segment.png) | ![Beschreibung 2](images/dual_segment.png) |
+|                Single Segment Setup                |                Dual Segment Setup                |
+|:--------------------------------------------------:|:------------------------------------------------:|
+| ![Beschreibung 1](images/single_segment_setup.png) | ![Beschreibung 2](images/dual_segment_setup.png) |
 
 ---
 

@@ -2,6 +2,8 @@
 
 -a simple, affordable, and lag-free DIY TV-Backlight system with dual-segment support using [HyperHDR](https://github.com/awawa-dev/HyperHDR)
 
+> The complete build guide, electronic wiring, and software setup configurations are available in the full guide: **[AmbiBox_Instructions.pdf](AmbiBox_Instructions.pdf)**.
+
 This project solves the common issue of messy wiring by completely hiding the components (Raspberry Pi, ESP32, Capture Card) and cables inside a single, sleek 3D-printed housing. 
 
 ---

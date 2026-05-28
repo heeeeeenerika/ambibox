@@ -25,14 +25,13 @@ This project solves the common issue of messy wiring by completely hiding the co
 
 ## Key Features
 
-- **Zero Latency Experience:** Powered by **HyperHDR** paired with an **ESP32** and a **Raspberry Pi Zero 2 W** via the high-speed **HyperSPI** interface.
-- **Dual-Segment Support:** Safely power and control two separate LED strip lines. Essential for larger TVs to reduce overheating risks and maintain consistent voltage drop.
-- **Clean Hardware Integration:** Fits a Pi Zero 2 W, ESP32, Logic Level Converter (LLC), WAGO connectors, and an HDMI-to-USB Video Capture Card completely inside the custom case.
-- **Smart Power/Status System:** Includes mounting for a physical button (for software-safe boot/shutdown) and a status LED to indicate boot sequences and power states.
-
+- **Low Latency:** HyperHDR running on a Pi Zero 2 W connects to an ESP32 via HyperSPI (which also is from the developer of HyperHDR) for low-latency backlight reaction.
+- **Dual-Segment Support:** Can power and control two separate LED strips to prevent voltage drop and overheating on long strips on larger TVs.
+- **Clean All-in-One Case:** Fits the Pi, ESP32 and the Capture Card inside a single housing.
+- **Power Button & Status LED:** Built-in slots for a physical button (safe software boot/shutdown) and an indicator LED.
 ---
 
-## Main Hardware Components
+## Main Hardware Components you wil need
 
 - **Raspberry Pi Zero 2 W** (Running HyperHDR)
 - **ESP32 Development Board** (Acts as the dedicated fast LED controller)
@@ -42,6 +41,15 @@ This project solves the common issue of messy wiring by completely hiding the co
 
 -> More component and wiring details are provided in the AmbiBox_Instructions.pdf file
 
+
+---
+
+## How a final setup looks like
+The final setup consists of three main components: the power supply, the AmbiBox itself, and the RGB strip(s) mounted on the back of your TV. The power supply connects directly to the AmbiBox. From there, the AmbiBox distributes both power and the data signal to your one or two RGB strip segments.
+
+| Überschrift Bild 1 | Überschrift Bild 2 |
+| :---: | :---: |
+| ![Beschreibung 1](images/single_segment.png) | ![Beschreibung 2](images/dual_segment.png) |
 
 ---
 
